@@ -6,13 +6,13 @@ Have a look [here](https://mutportal.vercel.app)
 
 ## Snippets
 - The sign in form
-<img src="images/Output.png" style="width: 200px; height: 100px; border: 5px solid green;">
+<img src="assets/Output.png" style="width: 200px; height: 100px; border: 5px solid green;">
 
 - The forgot password form
-<img src="images/output2.png" style="width: 200px; height: 100px; border: 5px solid green;">
+<img src="assets/output2.png" style="width: 200px; height: 100px; border: 5px solid green;">
 
 - The sign up form
-<img src="images/output3.png" style="width: 200px; height: 100px; border: 5px solid green;">
+<img src="assets/output3.png" style="width: 200px; height: 100px; border: 5px solid green;">
     
 
 ## Inquiry
