@@ -1,7 +1,12 @@
+@import "tailwindcss";
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal
 }
 
 #root {

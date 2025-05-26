@@ -5,9 +5,10 @@ import Login from './pages/Login'
 import Mission from './pages/Mission'
 import { Route, Routes } from 'react-router-dom'
 
-function App() {
+const App = () => {
+
   return (
-    <>
+      <>
       <Mission />
       <div className='right-forms'>
         <Routes>
