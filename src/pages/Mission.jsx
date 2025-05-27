@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Mission() {
+const Mission = () => {
   return (
-    <div id="mission">
-        <p>A Leading University in Technological Innovation , Research, and Training</p>
+    <div className='bg-[url(mission.jpg)] bg-clip-border bg-cover bg-no-repeat min-h-screen text-white text-3xl flex items-center justify-center'>
+        <p className='text-center'>A Leading University in Technological Innovation , Research, and Training</p>
     </div>
   )
 }

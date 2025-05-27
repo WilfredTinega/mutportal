@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Assets } from '../assets/Assets';
 
 const Login = () => {
   const today = new Date().getFullYear();
@@ -8,7 +9,7 @@ const Login = () => {
     <div className="bg-gray-100 min-h-screen flex flex-col items-center justify-center text-center p-4">
       <div className="mb-6">
         <img
-          src="https://portal.mut.ac.ke/uploads/60f2dc3a-7b61-4544-91a8-af2f8fa7d9c9.png?v=owI7j1YJIb_ys2wg_aWc9iUu37eDpGcwvFn8cReKebk"
+          src={Assets.Icon}
           alt="logo"
           className="w-[150px] h-[150px] mx-auto"
         />

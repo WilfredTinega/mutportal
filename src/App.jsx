@@ -1,24 +1,24 @@
 import React from 'react'
-import Forgot from './pages/Forgot'
 import Signup from './pages/Signup'
 import Login from './pages/Login'
 import Mission from './pages/Mission'
 import { Route, Routes } from 'react-router-dom'
+import NotFound from './pages/NotFound'
 
 const App = () => {
 
   return (
-      <>
+      <div className='grid grid-cols-2 items-center min-h-screen'>
       <Mission />
-      <div className='right-forms'>
+      <div>
         <Routes>
           <Route path='/' element = {< Login />} />
           <Route path='/sign-up' element = {< Signup />} />
-          <Route path='/forgot-password' element = {< Forgot />} />
+          <Route path='*' element = {< NotFound />} />
         </Routes>
       </div>
       
-    </>
+    </div>
   )
 }
 
